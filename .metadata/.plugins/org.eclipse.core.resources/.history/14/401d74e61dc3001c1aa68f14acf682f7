@@ -1,0 +1,12 @@
+package com.eliziane.cursojava.aula11;
+
+public class SequenciaEscape {
+
+	public static void main(String[] args) {
+		
+		//"Hello, world!!"
+		System.out.print("\"Hello, Wolrd!\"\n\r");
+
+	}
+
+}
