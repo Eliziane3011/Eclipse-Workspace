@@ -51,4 +51,6 @@
 			<item value="org.eclipse.wb/org.eclipse.wb.swing"/>
 		</list>
 	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+	</section>
 </section>
