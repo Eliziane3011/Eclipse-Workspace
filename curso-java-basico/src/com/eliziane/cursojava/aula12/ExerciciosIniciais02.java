@@ -8,7 +8,7 @@ public class ExerciciosIniciais02 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Escreva um número: ");
+		System.out.println("Escreva um número inteiro: ");
 		int num = scan.nextInt();
 		
 		System.out.println("O número informado foi: " + num);
