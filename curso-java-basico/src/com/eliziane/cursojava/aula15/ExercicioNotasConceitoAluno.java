@@ -16,25 +16,25 @@ public class ExercicioNotasConceitoAluno {
 		
 		double media = (nota1 + nota2) / 2;
 		
-		String aproveitamentoString = "";
+		String aproveitamento = "";
 		if (media >= 9 && media <= 10) {
-			aproveitamentoString = "A";
+			aproveitamento = "A";
 		} else if (media >= 7.5 && media < 9) {
-			aproveitamentoString = "B";
+			aproveitamento = "B";
 		} else if (media >= 6 && media < 7.5) {
-			aproveitamentoString = "C";
+			aproveitamento = "C";
 		}else if (media >= 4 && media < 6) {
-			aproveitamentoString = "D";
-		}else if (media >= 0 && media <4) {
-			aproveitamentoString = "E";
+			aproveitamento = "D";
+		}else if (media >= 0 && media < 4) {
+			aproveitamento = "E";
 		}
 		
 		System.out.println("NOTA 1: " + nota1);
 		System.out.println("NOTA 2: " + nota2);
 		System.out.println("MÉDIA: " + media);
-		System.out.println("Conceito: " + aproveitamentoString);
+		System.out.println("Conceito: " + aproveitamento);
 		
-		switch(aproveitamentoString) {
+		switch(aproveitamento) {
 			case "A":
 			case "B":
 			case "C": System.out.println("APROVADO"); break;
