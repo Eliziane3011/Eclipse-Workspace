@@ -24,6 +24,12 @@ public class Matrizes {
 		notasAlunos[2][2] = 10;
 		notasAlunos[2][3] = 7;
 		
+		for (int i=0; i<notasAlunos.length; i++) {
+			for (int j=0; j<notasAlunos[i].length; j++) {
+				System.out.println(notasAlunos[i][j] + " - ");
+			}
+		}
+		
 	}
 
 }
